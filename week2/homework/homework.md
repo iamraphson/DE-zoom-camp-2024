@@ -217,7 +217,7 @@ def transform(data, *args, **kwargs):
 
     print('rows_question_2', rows_question_2)
     
-    df_with_full_trip = data[(data['passenger_count'] != 0) | (data['trip_distance'] != 0)]
+    df_with_full_trip = data[(data['passenger_count'] != 0) & (data['trip_distance'] != 0)]
 
     #create a new column with only pickup date
     df_with_full_trip['lpep_pickup_date'] = df_with_full_trip['lpep_pickup_datetime'].dt.date
@@ -301,4 +301,5 @@ def export_data(data, *args, **kwargs):
 ```
 
 DAG flow:
+
 ![image](https://github.com/iamraphson/react-paystack/assets/3502724/84de53bb-be32-443e-9ae6-0cc9c4712fb2)
