@@ -28,7 +28,7 @@ services:
       - 6789:6789
     volumes:
       - .:/home/src/
-      - /Users/*********/.google/*******/*******-2024.json:/home/src/dezoomcamp-2024.json
+      - /Users/user/.google/cdq/dezoomcamp-2024.json:/home/src/dezoomcamp-2024.json
     restart: on-failure:5
   postgres:
     image: postgres:14
