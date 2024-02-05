@@ -11,3 +11,4 @@ We used a range of tools:
 * [Terraform](https://www.terraform.io): Infrastructure-as-Code (IaC)
 * [Docker](https://www.docker.com): Containerization
 * [SQL](https://www.postgresqltutorial.com): Data Analysis & Exploration
+* [Mage](https://www.mage.ai/): Workflow Orchestration. You can use [Airflow](https://airflow.apache.org/) too.
