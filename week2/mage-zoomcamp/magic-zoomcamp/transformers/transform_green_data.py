@@ -26,7 +26,7 @@ def transform(data, *args, **kwargs):
 
     print('rows_question_2', df_question_2.shape)
     
-    df_with_full_trip = data[(data['passenger_count'] > 0) | (data['trip_distance'] > 0)]
+    df_with_full_trip = data[(data['passenger_count'] > 0) & (data['trip_distance'] > 0)]
     print(df_with_full_trip.shape)
 
     #create a new column with only pickup date
