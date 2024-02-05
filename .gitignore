@@ -1,3 +1,6 @@
 .idea
 .vscode
 **/.ipynb_checkpoints/*
+*.json
+*.env
+**/.terraform/*
