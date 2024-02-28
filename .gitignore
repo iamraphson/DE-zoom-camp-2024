@@ -4,3 +4,6 @@
 *.json
 *.env
 **/.terraform/*
+.DS_Store
+
+week5/week5-venv/*

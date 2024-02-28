@@ -25,7 +25,7 @@ In July 2019, the followign serivce has below number of trips
 - Green: 415,386
 - FHV: 290,680
 
-The answer is Yellow
+The answer is `Yellow`
 
 Below is my dashboard from this homework
 ![image](https://github.com/iamraphson/react-paystack/assets/3502724/4e217d9e-5de9-4cdd-af23-a90a94e35d92)
