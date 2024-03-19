@@ -1,0 +1,11 @@
+{
+  "namespace": "com.2024.decamp.week6",
+  "type": "record",
+  "name": "RideRecordKey",
+  "fields": [
+    {
+      "name": "vendor_id",
+      "type": "int"
+    }
+  ]
+}
